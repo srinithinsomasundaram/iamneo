@@ -1,0 +1,121 @@
+/* Add this styling in your App.css file or use a styling solution like styled-components */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.weather-app {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 500%; /* Adjusted width to 90% */
+  max-width: 450px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin: auto; /* Added margin: auto; to center horizontally */
+}
+
+.header {
+  background-color: #4285f4; /* Google Blue */
+  color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.dark-mode-toggle {
+  margin-top: 15px;
+}
+
+.dark-mode-toggle label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.dark-mode-toggle input {
+  margin-right: 8px;
+}
+
+.input-container {
+  padding: 15px;
+}
+
+.city-input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.weather-info {
+  padding: 15px;
+}
+
+.temperature {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+}
+
+extra-info {
+  margin-top: 10px;
+  color: #555;
+}
+
+button {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a76e2; /* Slightly darker shade on hover */
+}
+
+.error-message {
+  color: #ff3333;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .header {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #666;
+}
+
+.dark-mode .temperature,
+.dark-mode .description,
+.dark-mode .extra-info,
+.dark-mode button {
+  color: #ccc;
+}
+
+/* Add additional styling for dark mode as needed */

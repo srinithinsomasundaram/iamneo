@@ -1,0 +1,56 @@
+/* Add this styling in your Signup.css file or use a styling solution like styled-components */
+
+.signup-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .signup-heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .signup-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .signup-input {
+    width: 150%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .signup-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #000000;
+  }
+  
+  .signup-text {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .signup-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
